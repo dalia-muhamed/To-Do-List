@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 56.3%;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: white;
+}
+.main {
+  background-color: #009578;
+}
+.container {
+  min-height: 100vh;
+  max-width: 80%;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.8rem;
+  grid-template-columns: 1fr;
+}
+
+.header {
+  margin: 2.4rem;
+}
+.primary-heading {
+  font-weight: 500;
+  /* font-size: 5.2rem; */
+  font-size: 3.2rem;
+  line-height: 1.4;
+}
+.to-do-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+.to-do-list-item {
+  background-color: white;
+
+  padding: 1.4rem 2rem;
+  color: rgb(62, 60, 60);
+
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  display: flex;
+}
+.icons-container {
+  margin-left: auto;
+}
+.delete-icon {
+  color: #ffc9c9;
+}
+.edit-icon {
+  color: #96f2d7;
+}
+.to-do-foot {
+  margin: 1.6rem 0;
+}
+.add-btn {
+  background-color: #01715d;
+  color: white;
+  font-size: 1.6rem;
+  padding: 1.5rem 3rem;
+  border-radius: 1rem;
+  text-align: center;
+}
